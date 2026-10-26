@@ -1,0 +1,37 @@
+
+8 robots/op
+  first-fail-human       58.6 items/robot-h   96.3% of best fixed (worst  86.5%)  express blocked   7.0 h  interventions    375  p95 wait   251s  remote cost % of $2.50 at $10/20/30 per h: 58/115/173
+  retry-1-then-human     60.4 items/robot-h   99.3% of best fixed (worst  97.9%)  express blocked   3.9 h  interventions    265  p95 wait   170s  remote cost % of $2.50 at $10/20/30 per h: 43/85/128
+  retry-2-then-human     58.3 items/robot-h   95.8% of best fixed (worst  91.1%)  express blocked   3.0 h  interventions    226  p95 wait   142s  remote cost % of $2.50 at $10/20/30 per h: 37/74/111
+  retry-3-then-human     56.0 items/robot-h   91.9% of best fixed (worst  85.9%)  express blocked   2.7 h  interventions    203  p95 wait   129s  remote cost % of $2.50 at $10/20/30 per h: 34/67/101
+  cost-aware             62.2 items/robot-h  102.3% of best fixed (worst 100.5%)  express blocked   4.4 h  interventions    315  p95 wait   159s  remote cost % of $2.50 at $10/20/30 per h: 50/99/149
+
+6 robots/op
+  first-fail-human       61.7 items/robot-h   98.8% of best fixed (worst  93.6%)  express blocked   5.7 h  interventions    393  p95 wait   159s  remote cost % of $2.50 at $10/20/30 per h: 61/122/183
+  retry-1-then-human     61.5 items/robot-h   98.6% of best fixed (worst  96.4%)  express blocked   3.3 h  interventions    271  p95 wait   100s  remote cost % of $2.50 at $10/20/30 per h: 44/87/131
+  retry-2-then-human     59.1 items/robot-h   94.6% of best fixed (worst  91.0%)  express blocked   2.6 h  interventions    226  p95 wait    85s  remote cost % of $2.50 at $10/20/30 per h: 37/75/112
+  retry-3-then-human     56.9 items/robot-h   90.9% of best fixed (worst  85.8%)  express blocked   2.4 h  interventions    201  p95 wait    74s  remote cost % of $2.50 at $10/20/30 per h: 33/66/99
+  cost-aware             63.6 items/robot-h  101.9% of best fixed (worst 100.0%)  express blocked   4.1 h  interventions    330  p95 wait   101s  remote cost % of $2.50 at $10/20/30 per h: 52/105/157
+
+4 robots/op
+  first-fail-human       65.0 items/robot-h  100.0% of best fixed (worst  99.7%)  express blocked   4.8 h  interventions    424  p95 wait    61s  remote cost % of $2.50 at $10/20/30 per h: 66/132/197
+  retry-1-then-human     62.8 items/robot-h   96.6% of best fixed (worst  92.3%)  express blocked   3.0 h  interventions    277  p95 wait    23s  remote cost % of $2.50 at $10/20/30 per h: 44/89/133
+  retry-2-then-human     59.8 items/robot-h   91.9% of best fixed (worst  86.4%)  express blocked   2.5 h  interventions    229  p95 wait    15s  remote cost % of $2.50 at $10/20/30 per h: 38/75/113
+  retry-3-then-human     57.2 items/robot-h   87.8% of best fixed (worst  77.0%)  express blocked   2.2 h  interventions    201  p95 wait    11s  remote cost % of $2.50 at $10/20/30 per h: 34/67/101
+  cost-aware             65.2 items/robot-h  100.4% of best fixed (worst  97.7%)  express blocked   4.0 h  interventions    361  p95 wait    30s  remote cost % of $2.50 at $10/20/30 per h: 57/113/170
+
+3 robots/op
+  first-fail-human       65.9 items/robot-h  100.0% of best fixed (worst 100.0%)  express blocked   4.4 h  interventions    431  p95 wait    26s  remote cost % of $2.50 at $10/20/30 per h: 66/132/198
+  retry-1-then-human     62.8 items/robot-h   95.2% of best fixed (worst  92.3%)  express blocked   3.0 h  interventions    279  p95 wait     5s  remote cost % of $2.50 at $10/20/30 per h: 45/90/135
+  retry-2-then-human     59.9 items/robot-h   90.8% of best fixed (worst  86.4%)  express blocked   2.5 h  interventions    230  p95 wait     2s  remote cost % of $2.50 at $10/20/30 per h: 37/75/112
+  retry-3-then-human     57.2 items/robot-h   86.6% of best fixed (worst  77.0%)  express blocked   2.1 h  interventions    201  p95 wait     2s  remote cost % of $2.50 at $10/20/30 per h: 34/68/101
+  cost-aware             65.7 items/robot-h   99.7% of best fixed (worst  97.7%)  express blocked   4.0 h  interventions    380  p95 wait    12s  remote cost % of $2.50 at $10/20/30 per h: 59/118/176
+
+1 robots/op
+  first-fail-human       66.5 items/robot-h  100.0% of best fixed (worst 100.0%)  express blocked   4.2 h  interventions    428  p95 wait     0s  remote cost % of $2.50 at $10/20/30 per h: 66/131/197
+  retry-1-then-human     63.0 items/robot-h   94.6% of best fixed (worst  89.2%)  express blocked   2.8 h  interventions    277  p95 wait     0s  remote cost % of $2.50 at $10/20/30 per h: 45/90/134
+  retry-2-then-human     59.4 items/robot-h   89.1% of best fixed (worst  80.3%)  express blocked   2.5 h  interventions    235  p95 wait     0s  remote cost % of $2.50 at $10/20/30 per h: 39/77/116
+  retry-3-then-human     57.1 items/robot-h   85.6% of best fixed (worst  74.3%)  express blocked   2.2 h  interventions    204  p95 wait     0s  remote cost % of $2.50 at $10/20/30 per h: 34/69/103
+  cost-aware             65.9 items/robot-h   99.1% of best fixed (worst  97.9%)  express blocked   4.1 h  interventions    380  p95 wait     0s  remote cost % of $2.50 at $10/20/30 per h: 59/118/177
+
+best fixed rule per fleet: {"8 robots/op": {"first-fail-human": 4, "retry-1-then-human": 6, "retry-2-then-human": 2, "retry-3-then-human": 0}, "6 robots/op": {"first-fail-human": 8, "retry-1-then-human": 4, "retry-2-then-human": 0, "retry-3-then-human": 0}, "4 robots/op": {"first-fail-human": 11, "retry-1-then-human": 1, "retry-2-then-human": 0, "retry-3-then-human": 0}, "3 robots/op": {"first-fail-human": 12, "retry-1-then-human": 0, "retry-2-then-human": 0, "retry-3-then-human": 0}, "1 robots/op": {"first-fail-human": 12, "retry-1-then-human": 0, "retry-2-then-human": 0, "retry-3-then-human": 0}}

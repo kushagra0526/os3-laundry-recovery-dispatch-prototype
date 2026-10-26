@@ -42,6 +42,7 @@ class Config:
     sites: list           # [(n_robots, express_weight)]
     n_skus: int = 300
     hard_share: float = 0.15   # share of SKUs that are hard (deformable, shiny, tiny)
+    fail_scale: float = 1.0    # multiplies every per-attempt failure probability (what-if only)
 
 
 def true_retry_p(t: str, sku: Sku, k: int) -> float:
@@ -53,7 +54,7 @@ def make_skus(cfg: Config, rng: random.Random) -> list:
     for _ in range(cfg.n_skus):
         hard = rng.random() < cfg.hard_share
         d = rng.betavariate(5, 3) if hard else rng.betavariate(1.2, 8)
-        fail_p = 0.02 + 0.30 * d
+        fail_p = min(1.0, (0.02 + 0.30 * d) * cfg.fail_scale)
         w = {t: MIX[t] * math.exp(rng.gauss(0, 0.4)) for t in TYPES}
         if hard:
             w["DROP"] *= 2.0
